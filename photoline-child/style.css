@@ -1,0 +1,12 @@
+/*
+Theme Name: Photoline Child
+Theme URI:
+Description: Your child theme description text...
+Author: Your Name
+Author URI: http://www.yourdomain.com/
+Template: photoline
+Version: 1.0
+Tags: Photoline Child Theme
+*/
+
+@import url("../photoline/style.css");

@@ -1,0 +1,49 @@
+== Photoline WordPress Theme ==
+
+= 1.3.2 - 31.01.2017
+* Fixed: responsiveness of the mosaic posts grid - php,js,css
+
+= 1.3.1 - 22.08.2016
+* Fixed: custom excerpt function - php
+* Changed: custom excerpt function - php
+* Added: customize option more link text of custom excerpt - php
+* Removed: unnecessary functions related to post excerpt
+
+= 1.3.0 - 21.08.2016
+* Big Update: files structure, functions and more.
+
+= 1.2.1 - 18.07.2016
+* Removed: style and script slimmenu - css, js
+* Changed: mobile menu
+* Fixed: minor css fixes
+
+= 1.2.0 - 12.04.2016
+* Fixed: conditions of the counter of posts in the layout mosaic tiles - php
+* Added: new mobile menu - script & style
+* Changed: font size of header, mobile menu, other minor changes css
+* Added: license information in README
+
+= 1.1.2 - 16.11.2015
+* Minor change css: added .search-list with a centered alignment
+* Minor change search template: replacing <p> tag to <h3>
+* Change header.php: do not show main menu (Primary location) if it is not assigned
+* Updated Font Awesome to 4.4.0 and Genericons to 3.4
+
+= 1.1.1 - 15.10.2015
+* Fix: deprecated constructor method for WP_Widget
+
+= 1.1 - 12.10.2015
+* Fix: incorrect sanitization shortcode into section Tagline from file content-home-tagline.php
+* Remove Page Mosaic Tile and Page Square Tiles Templates
+* Changed the structure of some page templates
+* Added option to show header of the front page
+* Added a welcome page with tips get started steps
+* Added option to disable the lightbox images
+* Some small changes and improvements
+* Replacement screenshot (new size)
+
+= 1.0.1 - 25.06.2015
+* Few fixes and minor changes
+
+= 1.0 - 13.06.2015
+* Initial release.
