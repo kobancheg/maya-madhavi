@@ -9,4 +9,31 @@ Version: 1.0
 Tags: Photoline Child Theme
 */
 
+@import url('https://fonts.googleapis.com/css?family=Forum|Marck+Script&subset=cyrillic,cyrillic-ext,latin-ext');
+
 @import url("../photoline/style.css");
+
+html p {
+    font-family: 'Forum';
+}
+
+.hero h1, .hero p {
+    font-family: 'Marck Script';
+}
+
+.hero p {
+    font-size: 23px;
+}
+
+.hero h1:after {
+    margin-bottom: 0;
+    height: 1px;
+}
+
+.main-navigation {
+    border-top: solid 1px #333;
+}
+
+.main-navigation li a {
+    font-family: 'Forum';
+}
