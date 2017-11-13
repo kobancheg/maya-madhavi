@@ -13,6 +13,10 @@ Tags: Photoline Child Theme
 
 @import url("../photoline/style.css");
 
+body {
+    color: #6b6b6b!important;
+}
+
 html p {
     font-family: 'Forum';
 }
@@ -34,6 +38,24 @@ html p {
     border-top: solid 1px #333;
 }
 
-.main-navigation li a {
+.main-navigation li a,
+.titleBox a > h3 {
     font-family: 'Forum';
+}
+
+.titleBox h3:after {
+    height: 1px;
+}
+
+.post-89 .entry-header {
+    background: url(http://maya-madhavi.ru/wp-content/uploads/2017/11/zhivopis.jpg) no-repeat!important;
+}
+.post-3468 .entry-header {
+    background: url(http://maya-madhavi.ru/wp-content/uploads/2017/11/grafika.jpg) no-repeat!important;
+}
+.post-95 .entry-header {
+    background: url(http://maya-madhavi.ru/wp-content/uploads/2017/11/neobychnosti.jpg) no-repeat!important;
+}
+.post-91 .entry-header {
+    background: url(http://maya-madhavi.ru/wp-content/uploads/2017/11/rospis.jpg) no-repeat!important;
 }
