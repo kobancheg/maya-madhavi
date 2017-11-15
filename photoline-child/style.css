@@ -21,6 +21,19 @@ html p {
     font-family: 'Forum';
 }
 
+.site-title {
+    font-size: 36px;
+    line-height: inherit;
+    font-family: 'Forum';
+    font-weight: inherit;
+    color: #6b6b6b!important;
+}
+
+.site-branding {
+    padding: 0;
+    padding-top: 20px;
+}
+
 .hero h1, .hero p {
     font-family: 'Marck Script';
 }
@@ -38,7 +51,11 @@ html p {
     border-top: solid 1px #333;
 }
 
-.main-navigation li a,
+.main-navigation li a {
+    font-family: 'Forum';
+    color: #6b6b6b!important;
+}
+
 .titleBox a > h3 {
     font-family: 'Forum';
 }
@@ -58,4 +75,43 @@ html p {
 }
 .post-91 .entry-header {
     background: url(http://maya-madhavi.ru/wp-content/uploads/2017/11/rospis.jpg) no-repeat!important;
+}
+
+.menu-main {
+    position: relative;
+}
+
+.search-top {
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+@media (max-width: 960px) {
+    .search-top {
+        top: -45px;
+    }
+}
+
+input[type="search"] {
+    margin: 6px 0 10px;
+    padding: 5px 0 7px 15px;
+}
+
+@media (max-width: 768px) {
+    .search-top {
+        position: relative;
+        top: inherit;
+        width: 100%;
+    }
+    input[type="search"] {
+        width: 90%;
+        margin: 2px auto 10px;
+    }
+}
+
+@media (max-width: 1050px) {
+    #site-navigation {
+        padding: 0 5px;
+    }
 }
