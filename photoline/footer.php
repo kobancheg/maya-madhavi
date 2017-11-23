@@ -66,7 +66,7 @@
 
 		<div id="back-to-top">
 			<a href="#masthead" id="scroll-up" ><i class="fa fa-chevron-up"></i></a>
-            		</div>
+        </div>
 
 	</footer><!-- #colophon -->
 </div><!-- .out-wrap -->

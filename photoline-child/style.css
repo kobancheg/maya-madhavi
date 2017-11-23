@@ -26,12 +26,24 @@ html p {
     line-height: inherit;
     font-family: 'Forum';
     font-weight: inherit;
-    color: #6b6b6b!important;
+    /*color: #6b6b6b!important;*/
 }
+
+/*h1.site-title a {
+    color: #6b6b6b!important;
+}*/
 
 .site-branding {
     padding: 0;
     padding-top: 20px;
+    background-image: url("../photoline/img/16-fon-dlya-sayta.png");
+    background-size: inherit;
+}
+
+#colophon.site-footer {
+    /*background: #faeec8!important;*/
+    background-image: url("../photoline/img/16-fon-dlya-sayta.png");
+    background-size: inherit;
 }
 
 .hero h1, .hero p {
@@ -48,12 +60,12 @@ html p {
 }
 
 .main-navigation {
-    border-top: solid 1px #333;
+    border-top: solid 1px #6b6b6b;
 }
 
 .main-navigation li a {
     font-family: 'Forum';
-    color: #6b6b6b!important;
+    /*color: #6b6b6b!important;*/
 }
 
 .titleBox a > h3 {
@@ -114,4 +126,8 @@ input[type="search"] {
     #site-navigation {
         padding: 0 5px;
     }
+}
+
+.gallery-item {
+    padding: 0.5rem;
 }

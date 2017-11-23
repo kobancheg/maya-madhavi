@@ -25,7 +25,6 @@ $form = '
 			'container_class' => 'menu-main',
             'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul><div class="search-top">'.$form.'</div>'
 		) ); ?>
-
 		</nav>
 <?php
 	} ?>
