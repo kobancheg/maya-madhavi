@@ -68,12 +68,33 @@ html p {
     /*color: #6b6b6b!important;*/
 }
 
-.titleBox a > h3 {
+.titleBox h3 {
     font-family: 'Forum';
 }
 
 .titleBox h3:after {
     height: 1px;
+}
+
+.innerBox:hover .titleBox h3 {
+    top: 40px;
+    visibility: visible;
+    -webkit-transition: 0.3s ease-out;
+    -moz-transition: 0.3s ease-out;
+    -ms-transition: 0.3s ease-out;
+    -o-transition: 0.3s ease-out;
+    transition: 0.3s ease-out;
+}
+
+.titleBox article h3 {
+    color: #FFF;
+    text-transform: uppercase;
+    position: relative;
+    letter-spacing: 1px;
+    font-size: 16px;
+    text-decoration: none;
+    visibility: hidden;
+    top: 0;
 }
 
 .post-89 .entry-header {
@@ -129,5 +150,12 @@ input[type="search"] {
 }
 
 .gallery-item {
-    padding: 0.5rem;
+    padding: 0.25rem;
+}
+
+.fa-pencil-square-o {
+    color: #631ebd;
+}
+#home-hero .entry-content {
+    background-position: 72%!important;
 }
