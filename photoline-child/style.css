@@ -15,6 +15,7 @@ Tags: Photoline Child Theme
 
 body {
     color: #6b6b6b!important;
+    background-image: url("../photoline/img/33-tekstura-bezhevoy-tkani-dlya-backround-sayta.png")!important;
 }
 
 html p {
@@ -26,24 +27,30 @@ html p {
     line-height: inherit;
     font-family: 'Forum';
     font-weight: inherit;
-    /*color: #6b6b6b!important;*/
 }
-
-/*h1.site-title a {
-    color: #6b6b6b!important;
-}*/
 
 .site-branding {
     padding: 0;
     padding-top: 20px;
-    background-image: url("../photoline/img/16-fon-dlya-sayta.png");
+}
+
+#wrap-header.wrap {
+    max-width: 100%;
+}
+
+#wrap-content.wrap {
+    background: inherit;
+}
+
+.out-wrap {
+    background-image: url("../photoline/img/16-fon-dlya-sayta.png")!important;
     background-size: inherit;
 }
 
-#colophon.site-footer {
-    /*background: #faeec8!important;*/
-    background-image: url("../photoline/img/16-fon-dlya-sayta.png");
-    background-size: inherit;
+.menu-main {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .hero h1, .hero p {
@@ -59,13 +66,8 @@ html p {
     height: 1px;
 }
 
-.main-navigation {
-    border-top: solid 1px #6b6b6b;
-}
-
 .main-navigation li a {
     font-family: 'Forum';
-    /*color: #6b6b6b!important;*/
 }
 
 .titleBox h3 {
@@ -108,10 +110,6 @@ html p {
 }
 .post-91 .entry-header {
     background: url(http://maya-madhavi.ru/wp-content/uploads/2017/11/rospis.jpg) no-repeat!important;
-}
-
-.menu-main {
-    position: relative;
 }
 
 .search-top {
