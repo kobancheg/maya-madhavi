@@ -34,12 +34,12 @@ html p {
     padding-top: 20px;
 }
 
-#wrap-header.wrap {
-    max-width: 100%;
+.wrap {
+    background: inherit!important;
 }
 
-#wrap-content.wrap {
-    background: inherit;
+#wrap-header.wrap {
+    max-width: 100%;
 }
 
 .out-wrap {
@@ -53,6 +53,10 @@ html p {
     margin: 0 auto;
 }
 
+.hero {
+    background: rgba(255, 255, 255, 0.70);
+}
+
 .hero h1, .hero p {
     font-family: 'Marck Script';
 }
@@ -64,6 +68,10 @@ html p {
 .hero h1:after {
     margin-bottom: 0;
     height: 1px;
+}
+
+.main-navigation {
+    background: rgba(255, 255, 255, 0.70)!important;
 }
 
 .main-navigation li a {
