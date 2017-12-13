@@ -51,7 +51,7 @@
 					wp_nav_menu(
 						array(
 							'theme_location'  => 'social',
-							'container_class' => 'icon-footer', 
+							'container_class' => 'icon-footer',
 							'menu_id'         => 'menu-social',
 							'depth'           => 1,
 							'link_before'     => '<span class="screen-reader-text">',

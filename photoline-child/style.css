@@ -54,7 +54,7 @@ html p {
 }
 
 .hero {
-    background: rgba(255, 255, 255, 0.70);
+    background: rgba(255, 255, 255, 0.55);
 }
 
 .hero h1, .hero p {
@@ -71,7 +71,7 @@ html p {
 }
 
 .main-navigation {
-    background: rgba(255, 255, 255, 0.70)!important;
+    background: rgba(255, 255, 255, 0.55)!important;
 }
 
 .main-navigation li a {
@@ -164,4 +164,17 @@ input[type="search"] {
 }
 #home-hero .entry-content {
     background-position: 72%!important;
+}
+
+.site-footer, .site-footer a {
+    color: #6b6b6b!important;
+}
+
+.footer-border {
+    border-top: solid 1px #6b6b6b!important;
+}
+
+/*slider*/
+.jp-carousel-titleanddesc-desc {
+    display: none;
 }
