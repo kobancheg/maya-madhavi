@@ -18,14 +18,17 @@ body {
     background-image: url("../photoline/img/33-tekstura-bezhevoy-tkani-dlya-backround-sayta.png")!important;
 }
 
-html p {
+body, span, .entry-content, h1, h2, h3, h4, h5, h6, .site-title {
     font-family: 'Forum';
+}
+
+body, div, .entry-content {
+    font-size: 16px;
 }
 
 .site-title {
     font-size: 36px;
     line-height: inherit;
-    font-family: 'Forum';
     font-weight: inherit;
 }
 
