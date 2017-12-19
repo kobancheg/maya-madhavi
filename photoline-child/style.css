@@ -185,3 +185,12 @@ input[type="search"] {
 .jp-carousel-titleanddesc-desc {
     display: none;
 }
+
+.ya-share2__container {
+    margin-top: 10px!important;
+}
+
+nav#nav-below {
+    margin-bottom: 20px;
+    text-align: center;
+}
