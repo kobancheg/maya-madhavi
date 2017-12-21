@@ -13,7 +13,7 @@
 $form = '
 	<form role="search" method="get" class="search-form" action="'. esc_url( home_url('/') ).'">
 	<label>
-		<input type="search" class="search-field" placeholder="Search" value="" name="s">
+		<input type="search" class="search-field" placeholder="Поиск" value="" name="s">
 	</label>
 	<input type="submit" class="search-submit" value="">
 </form>';

@@ -194,3 +194,19 @@ nav#nav-below {
     margin-bottom: 20px;
     text-align: center;
 }
+
+@media (max-width: 768px) {
+    .innerBox .titleBox {
+        background: rgba(0, 0, 0, 0.5);
+    }
+
+    .innerBox .titleBox h3 {
+        top: 40px;
+        visibility: visible;
+        -webkit-transition: 0.3s ease-out;
+        -moz-transition: 0.3s ease-out;
+        -ms-transition: 0.3s ease-out;
+        -o-transition: 0.3s ease-out;
+        transition: 0.3s ease-out;
+    }
+}
